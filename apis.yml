@@ -1,0 +1,166 @@
+aid: setu
+name: Setu
+description: >-
+  Setu (a Pine Labs company) is an API-first embedded finance infrastructure
+  provider for India. Its product catalogue covers UPI acceptance and
+  payouts, BBPS bill collection and bill payment, WhatsApp-based payment
+  journeys, Account Aggregator (RBI's consent-based financial data sharing
+  framework), KYC for individuals and businesses, and Aadhaar eSign. The
+  Bridge is Setu's developer console for configuring products, issuing
+  credentials, and reviewing transactions and settlement. All products are
+  exposed as REST APIs documented at docs.setu.co.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+position: Producer
+created: '2026-05-23'
+modified: '2026-05-23'
+tags:
+  - Embedded Finance
+  - APIs
+  - UPI
+  - BBPS
+  - Account Aggregator
+  - KYC
+  - eSign
+  - India
+  - Fintech
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/setu/refs/heads/main/apis.yml
+specificationVersion: '0.20'
+apis:
+  - aid: setu:upi
+    name: Setu UPI (UPI Setu)
+    description: >-
+      End-to-end UPI product suite for merchants and aggregators - collect
+      requests, deep-link / intent flows, UPI AutoPay mandates, payment
+      verification, and settlement reporting on India's Unified Payments
+      Interface rails.
+    humanURL: https://docs.setu.co/payments/upi-setu
+    baseURL: https://docs.setu.co/payments/upi-setu
+    tags:
+      - UPI
+      - Payments
+      - Collect
+    properties:
+      - type: Documentation
+        url: https://docs.setu.co/payments/upi-setu
+  - aid: setu:bbps-billcollect
+    name: Setu BBPS BillCollect
+    description: >-
+      Enables businesses to become BBPS billers so that customers can pay
+      their bills from any BBPS-enabled app. APIs cover biller onboarding,
+      bill fetch, bill payment, and settlement reporting.
+    humanURL: https://docs.setu.co/payments/bbps-billcollect
+    baseURL: https://docs.setu.co/payments/bbps-billcollect
+    tags:
+      - BBPS
+      - Bill Collection
+      - Payments
+    properties:
+      - type: Documentation
+        url: https://docs.setu.co/payments/bbps-billcollect
+  - aid: setu:bbps-billpay
+    name: Setu BBPS BillPay
+    description: >-
+      Lets apps and platforms offer bill payment to any BBPS biller in India.
+      Provides biller catalogue, fetch-bill, payment, and status APIs along
+      with pre-built UI options.
+    humanURL: https://docs.setu.co/payments/bbps-billpay
+    baseURL: https://docs.setu.co/payments/bbps-billpay
+    tags:
+      - BBPS
+      - Bill Payment
+      - Payments
+    properties:
+      - type: Documentation
+        url: https://docs.setu.co/payments/bbps-billpay
+  - aid: setu:whatsapp-collect
+    name: Setu WhatsApp Collect
+    description: >-
+      Automates payment reminders and bill-pay journeys over WhatsApp,
+      combining BBPS bill fetch and UPI collection inside a conversational
+      flow.
+    humanURL: https://docs.setu.co/payments/whatsapp-collect
+    baseURL: https://docs.setu.co/payments/whatsapp-collect
+    tags:
+      - WhatsApp
+      - Collections
+      - Payments
+    properties:
+      - type: Documentation
+        url: https://docs.setu.co/payments/whatsapp-collect
+  - aid: setu:account-aggregator
+    name: Setu Account Aggregator
+    description: >-
+      Setu's Account Aggregator stack lets regulated entities consume
+      consent-based financial data from a customer's other institutions
+      under RBI's AA framework, for personal finance management and loan
+      underwriting.
+    humanURL: https://docs.setu.co/data/account-aggregator
+    baseURL: https://docs.setu.co/data/account-aggregator
+    tags:
+      - Account Aggregator
+      - Open Finance
+      - Consent
+    properties:
+      - type: Documentation
+        url: https://docs.setu.co/data/account-aggregator
+  - aid: setu:kyc
+    name: Setu KYC
+    description: >-
+      KYC API suite for verifying individuals and businesses in India
+      (Aadhaar, PAN, GSTIN, bank account, business identity), used during
+      onboarding by fintechs, lenders, and marketplaces.
+    humanURL: https://docs.setu.co/data/kyc
+    baseURL: https://docs.setu.co/data/kyc
+    tags:
+      - KYC
+      - Identity
+      - Onboarding
+    properties:
+      - type: Documentation
+        url: https://docs.setu.co/data/kyc
+  - aid: setu:esign
+    name: Setu Aadhaar eSign
+    description: >-
+      Aadhaar-based electronic signature API for collecting legally valid
+      signatures on documents, with audit trail and signed PDF retrieval.
+    humanURL: https://docs.setu.co/data/aadhaar-esign
+    baseURL: https://docs.setu.co/data/aadhaar-esign
+    tags:
+      - eSign
+      - Aadhaar
+      - Documents
+    properties:
+      - type: Documentation
+        url: https://docs.setu.co/data/aadhaar-esign
+  - aid: setu:bridge
+    name: Setu The Bridge (Developer Console)
+    description: >-
+      The Bridge is Setu's developer console for configuring products,
+      issuing API credentials, viewing transaction and settlement reports,
+      and managing webhook endpoints.
+    humanURL: https://bridge.setu.co/
+    baseURL: https://bridge.setu.co/
+    tags:
+      - Console
+      - Developer Portal
+      - Reporting
+    properties:
+      - type: Website
+        url: https://bridge.setu.co/
+common:
+  - type: Website
+    url: https://setu.co/
+  - type: Documentation
+    url: https://docs.setu.co/
+  - type: Console
+    url: https://bridge.setu.co/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/setuhq
+  - type: GitHub
+    url: https://github.com/SetuHQ
+maintainers:
+  - FN: API Evangelist
+    url: https://apievangelist.com
