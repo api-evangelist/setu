@@ -161,7 +161,7 @@ common:
     url: https://www.linkedin.com/company/setuhq
   - type: GitHub
     url: https://github.com/SetuHQ
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://docs.setu.co/llms.txt
 maintainers:
   - FN: API Evangelist
