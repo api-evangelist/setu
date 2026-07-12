@@ -151,6 +151,8 @@ apis:
       - type: Website
         url: https://bridge.setu.co/
 common:
+  - type: DomainSecurity
+    url: security/setu-domain-security.yml
   - type: Website
     url: https://setu.co/
   - type: Documentation
@@ -163,6 +165,8 @@ common:
     url: https://github.com/SetuHQ
   - type: LlmsText
     url: https://docs.setu.co/llms.txt
+  - type: Blog
+    url: https://setu.co/blog
 maintainers:
   - FN: API Evangelist
     url: https://apievangelist.com
