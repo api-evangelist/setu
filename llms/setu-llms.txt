@@ -1,0 +1,278 @@
+# Setu Documentation
+
+> Developer documentation for Setu — payments (BBPS, BillPay, UPI, UMAP), data and identity (Account Aggregator, KYC, eSign, DigiLocker, Insights) and developer tools. Every page is also available as Markdown by appending `.mdx` to its URL.
+
+The full text of every page is available at /llms-full.txt.
+
+- [Data & Identity](/data): Verify identities, fetch consented financial data, and analyse credit.
+- [Developer Tools](/dev-tools): Manage products, API keys, configurations, and analytics.
+- [Payments](/payments): Build powerful payment experiences — from bill collection to UPI infrastructure.
+- [Quickstart](/data/aadhaar-lite/quickstart): Aadhaar-lite API quickstart
+- [Error codes](/data/digilocker/error-codes): DigiLocker error codes
+- [Overview](/data/digilocker/overview): Digilocker overview
+- [Pull Driving Licence](/data/digilocker/pulldrivinglicense): Digilocker Quickstart
+- [Integration guide](/data/digilocker/quickstart): Digilocker quickstart
+- [Quickstart](/data/ekyc/quickstart): PAN verification quickstart
+- [Quickstart](/data/gst/quickstart): GST Verification quickstart
+- [Error codes](/data/insights/error-code): Setu Insights error codes
+- [List of insights](/data/insights/insights): All Setu insights
+- [Notifications](/data/insights/notifications): Setu Insights notifications
+- [Overview](/data/insights/overview): Setu Insights overview
+- [Secure Data Add-On](/data/kyc/encryption): Setu Encrypted APIs
+- [Overview](/data/kyc/overview): Setu KYC Overview
+- [Quickstart](/data/pan/quickstart): PAN verification quickstart
+- [AA Flow](/data/signal-iq/aa-flow): Signal IQ - AA Flow
+- [Bring Your Own FI Data](/data/signal-iq/bring-your-own-fi-data): Signal IQ - Bring Your Own FI Data
+- [Overview](/data/signal-iq/overview): Signal IQ overview
+- [PDF Flow](/data/signal-iq/pdf-flow): Signal IQ - PDF Flow
+- [Quickstart](/data/uli/quickstart): GST Verification quickstart
+- [Analytics and reports](/dev-tools/bridge/analytics-and-reports): Bridge analytics and reports
+- [Configure products](/dev-tools/bridge/explore-and-configure-products): Bridge explore and configure products
+- [Glossary](/dev-tools/bridge/glossary): Bridge glossary
+- [Overview](/dev-tools/bridge/overview): Bridge overview
+- [Settings](/dev-tools/bridge/settings): Bridge settings
+- [User profile](/dev-tools/bridge/user-profile): Bridge user profile
+- [Axis BBPS](/payments/bbps/axis): Axis BBPS API Approach Document
+- [Go live](/payments/bbps/go-live): BBPS - Go live
+- [Notifications](/payments/bbps/notifications): BBPS - Notifications
+- [Overview](/payments/bbps/overview): BBPS - Overview
+- [Reports API](/payments/bbps/reports): BBPS - Reports API
+- [Overview](/payments/billpay/overview): BBPS Billpay Overview
+- [API overview](/payments/umap/api-overview): UPI Setu API — auth, environments, idempotency, errors, pagination, webhooks, and the full endpoint index.
+- [Overview](/payments/umap/overview): UPI Setu - Overview
+- [Notifications](/payments/upi-deeplinks/notifications): UPI Deeplinks Notifications
+- [Overview](/payments/upi-deeplinks/overview): UPI Deeplinks Overview
+- [Refunds](/payments/upi-deeplinks/refunds): UPI Deeplinks Refunds
+- [Reports API](/payments/upi-deeplinks/reports): UPI Deeplinks Reports API
+- [SDKs](/payments/upi-deeplinks/sdks): UPI Deeplinks SDKs
+- [Third party verification](/payments/upi-deeplinks/third-party-verification): UPI Deeplinks third party verification
+- [API Integration](/payments/whatsapp-collect/api-integration): WhatsApp Collect API Integration
+- [Error codes](/payments/whatsapp-collect/errors): WhatsApp Collect error codes
+- [Collection journey](/payments/whatsapp-collect/journey): WhatsApp Collect Journey
+- [Overview](/payments/whatsapp-collect/overview): WhatsApp Collect Overview
+- [Collection reminders](/payments/whatsapp-collect/reminders): WhatsApp Collect reminders
+- [Consent object](/data/account-aggregator/consent-object): Account Aggregator consent object
+- [Embed Setu screens](/data/account-aggregator/embed-setu-aa): Account Aggregator Embed Setu screens
+- [FI data types](/data/account-aggregator/fi-data-types): Account Aggregator FI data types
+- [Multi AA gateway](/data/account-aggregator/multi-aa-gateway): Account Aggregator multi-AA gateway
+- [Overview](/data/account-aggregator/overview): Account Aggregator overview
+- [Quickstart](/data/account-aggregator/quickstart): Account Aggregator quickstart
+- [Error codes](/data/esign/error-codes): Aadhaar eSign error codes
+- [eStamp overview](/data/esign/estamp): Setu eStamp lets you acquire offline eStamps, attach them to documents and collect Aadhaar-based eSignatures with government stamp duty applied.
+- [Flexible eSign guide](/data/esign/flexi-esign): Integration guide with flexible signature coordinates
+- [eSign Name Match](/data/esign/name-match): Aadhaar eSign Name Match
+- [Notifications](/data/esign/notifications): Aadhaar eSign Notifications
+- [Overview](/data/esign/overview): Aadhaar eSign overview
+- [PDF templates](/data/esign/pdf-templating): Integration guide with pdf templating API's
+- [Integration guide](/data/esign/quickstart): Aadhaar eSign integration guide
+- [API integration](/data/bav/bundled-bav/api-integration): Bundled BAV API integration
+- [Quickstart](/data/bav/bundled-bav/quickstart): Quickstart for Bundled BAV
+- [Notifications](/data/bav/penny-drop/notifications): BAV Async Penny drop Notifications
+- [Quickstart](/data/bav/penny-drop/quickstart): BAV quickstart
+- [API integration](/data/bav/reverse-penny-drop/api-integration): RPD API integration
+- [Quickstart](/data/bav/reverse-penny-drop/quickstart): Quickstart for reverse penny drop
+- [Webhook Auth](/data/bav/reverse-penny-drop/webhook-authentication): Webhook Authentication
+- [API integration](/data/insights/quickstart/api-integration): Setu Insights Postman integration
+- [Quickstart](/data/insights/quickstart): Setu Insights quickstart
+- [Postman integration](/data/insights/quickstart/postman): Setu Insights Postman integration
+- [List of insights](/data/insights/v1/insights): All Setu insights
+- [Notifications](/data/insights/v1/notifications): Setu Insights notifications
+- [Overview](/data/insights/v1/overview): Setu Insights overview
+- [List of insights](/data/insights/v2/insights): All Setu insights
+- [Notifications](/data/insights/v2/notifications): Setu Insights notifications
+- [Overview](/data/insights/v2/overview): Setu Insights overview
+- [Quickstart](/data/insights/v2/quickstart): Setu Insights quickstart
+- [Examples](/data/match-apis/name-match/examples): Name Match API response examples
+- [Overview](/data/match-apis/name-match/overview): Name Match API overview
+- [Quickstart](/data/match-apis/name-match/quickstart): Name Match API quickstart
+- [Bridge configuration](/dev-tools/bridge/v1/configure): Configure Setu products on The Bridge — create billers and product configurations for Collect BBPS, UPI DeepLinks and Bill Payments, then go live.
+- [Generate Token](/dev-tools/bridge/v1/generate-token): Bridge generate token
+- [Overview](/dev-tools/bridge/v1/overview): Bridge overview
+- [Reports API](/dev-tools/bridge/v1/reports-api): The Setu Reports API gives you access to transaction, settlement and refund data so you can automate your reconciliation process.
+- [Bill Structure](/payments/bbps/bill-structure): BBPS - Bill Structure
+- [Special cases](/payments/bbps/bill-structure/special-cases): BBPS - Bill Structure special cases
+- [Quickstart](/payments/bbps/quickstart): BBPS - Quickstart
+- [No-code CSV](/payments/bbps/quickstart/no-code-integration): BBPS - No-code CSV
+- [Share bills](/payments/bbps/quickstart/share-biils): BBPS - Share bills
+- [Errors](/payments/bbps/resources/errors): BBPS error codes
+- [Additional resources](/payments/bbps/resources): BBPS - Additional Resources
+- [JWT authentication](/payments/bbps/resources/jwt): UPI Deeplinks JWT authentication
+- [OAuth 2.0](/payments/bbps/resources/oauth): BBPS OAuth 2.0
+- [Settlement object](/payments/bbps/resources/settlement-object): UPI Deeplinks settlement object
+- [List of APIs](/payments/billpay/api-integration/apis): BBPS COU — List of APIs
+- [FX Retail](/payments/billpay/api-integration/fx-retail): BBPS COU — FX Retail (Forex category)
+- [Harmonization of TAT](/payments/billpay/api-integration/harmonization_of_tat): Harmonization Of TAT (Disputes API)
+- [Objects](/payments/billpay/api-integration/objects): BBPS COU — Objects
+- [Quickstart](/payments/billpay/api-integration/quickstart): BBPS COU — API integration
+- [Integrating with UPMS](/payments/billpay/api-integration/upms): BBPS COU — Integrating with UPMS
+- [Migration Guide to v2](/payments/billpay/api-integration/v2-migration): BBPS COU — Migration Guide to v2
+- [Webhooks](/payments/billpay/api-integration/webhooks): BBPS COU — Webhooks
+- [Integration Guide](/payments/billpay/mcp/integration-guide): MCP Server for Bill Payments - Integration Guide
+- [Tools and Prompts](/payments/billpay/mcp/tools-and-prompts): MCP Server for Bill Payments - Tools and Prompts
+- [Quickstart](/payments/billpay/mobile-prepaid-recharge/quickstart): Mobile Prepaid Recharge quickstart
+- [Webhooks](/payments/billpay/mobile-prepaid-recharge/webhooks): Mobile Prepaid Recharge Webhooks
+- [Overview](/payments/billpay/v1/overview): BBPS Billpay Overview
+- [Aggregators](/payments/umap/api-integration/aggregators): UPI Setu - API integration for aggregators
+- [API integration](/payments/umap/api-integration): UPI Setu - API integration
+- [Merchants](/payments/umap/api-integration/merchants): UPI Setu - API integration for merchants
+- [UPI mandates](/payments/umap/mandates): UPI mandates enable recurring payments and single-block multi-debit flows — power subscriptions, IPO investments and try-and-buy from any UPI app.
+- [Check VPA availability](/payments/umap/merchant-onboarding/check-vpa-availability-api): UPI Setu - Merchant on-boarding - Check VPA availability
+- [Setup a merchant](/payments/umap/merchant-onboarding/create-merchant-api): UPI Setu - Merchant on-boarding - Setup merchant
+- [Registering VPA](/payments/umap/merchant-onboarding/create-vpa-api): UPI Setu - Merchant on-boarding - Registering a VPA
+- [Merchant on-boarding](/payments/umap/merchant-onboarding): UPI Setu - Merchant onboarding
+- [VPA verification](/payments/umap/notifications/customer-vpa-verification): UPI Setu - Notifications and alerts - Customer VPA verification
+- [Notifications and alerts](/payments/umap/notifications): UPI Setu - Notifications and alerts
+- [Payments](/payments/umap/notifications/payments): UPI Setu - Notifications and alerts - Payments
+- [Refunds](/payments/umap/notifications/refunds): UPI Setu - Notifications and alerts - Refunds
+- [Verify signature](/payments/umap/notifications/verify-signature): UMAP - Events and notifications
+- [UPI payments](/payments/umap/payments): Accept real-time UPI payments with Setu — payment links, web checkout via customer VPA, and Third Party Validation for compliant collections.
+- [Aggregators](/payments/umap/quickstart/aggregators): UPI Setu - Quickstart for aggregators
+- [Quickstart](/payments/umap/quickstart): Make your first UPI Setu collect request — from access token to UPI short URL — in under five minutes.
+- [Merchants](/payments/umap/quickstart/merchants): UPI Setu - Quickstart for merchants
+- [Check refund status](/payments/umap/refunds-disputes/check-refund-status-api): UPI Setu - Refunds and disputes - Check refund status API
+- [Create refund](/payments/umap/refunds-disputes/create-refund-api): UPI Setu - Refunds and disputes - Create refund API
+- [Fetch dispute](/payments/umap/refunds-disputes/fetch-dispute-api): UPI Setu - Refunds and disputes - Fetch dispute API
+- [Refunds and disputes](/payments/umap/refunds-disputes): UPI Setu - Refunds and disputes
+- [Check status](/payments/umap/transaction-monitoring/check-status-api): UPI Setu - Transaction monitoring - Check status API
+- [Check status history](/payments/umap/transaction-monitoring/check-status-history-api): UPI Setu - Transaction monitoring - Check status sistory API
+- [Fetch payment](/payments/umap/transaction-monitoring/fetch-payment-api): UPI Setu - Transaction monitoring - Fetch payment API
+- [Transaction Monitoring](/payments/umap/transaction-monitoring): UPI Setu - Transaction Monitoring
+- [Go Live](/payments/upi-deeplinks/quickstart/go-live): UPI Deeplinks go live
+- [Quickstart](/payments/upi-deeplinks/quickstart): UPI Deeplinks quickstart
+- [Additional resources](/payments/upi-deeplinks/resources): UPI Deeplinks additonal resources
+- [JWT authentication](/payments/upi-deeplinks/resources/jwt): UPI Deeplinks JWT authentication
+- [OAuth 2.0](/payments/upi-deeplinks/resources/oauth): UPI Deeplinks OAuth 2.0
+- [Settlement object](/payments/upi-deeplinks/resources/settlement-object): UPI Deeplinks settlement object
+- [Remitter Details](/payments/billpay/pre-built-screens/remitter-details): Remitter Details For Bill Payments Integration Guide
+- [Webhooks](/payments/billpay/pre-built-screens/webhooks): BBPS Billpay webhooks
+- [Account Availability](/data/account-aggregator/api-integration/account-availability-apis): Account Aggregator Account Availability
+- [Consent flow](/data/account-aggregator/api-integration/consent-flow): Account Aggregator Consent flow
+- [Data flow](/data/account-aggregator/api-integration/data-apis): Account Aggregator Data flow
+- [Active FIPs](/data/account-aggregator/api-integration/fip-apis): Account Aggregator Active FIPs
+- [API integration](/data/account-aggregator/api-integration): Account Aggregator API integration
+- [Notifications](/data/account-aggregator/api-integration/notifications): Account Aggregator Notifications
+- [Go live](/data/account-aggregator/licenses-and-go-live/go-live): FIU go live process
+- [Licenses and go live](/data/account-aggregator/licenses-and-go-live): Account Aggregator license and go live process
+- [Licenses](/data/account-aggregator/licenses-and-go-live/licenses): Licenses required to participate in AA
+- [Participants in AA](/data/account-aggregator/licenses-and-go-live/participants-in-aa): Find live FIPs, FIUs and FIP-AA mappings in the Account Aggregator ecosystem via Sahamati, and learn how to become an FIU with Setu.
+- [Consent object](/data/account-aggregator/v1/consent-object): Account Aggregator Consent object
+- [Embed Setu screens](/data/account-aggregator/v1/embed-setu-aa): Account Aggregator Embed Setu screens
+- [End-to-end encryption](/data/account-aggregator/v1/encryption): Account Aggregator End-to-end encryption
+- [FI data types](/data/account-aggregator/v1/fi-data-types): Account Aggregator FI data types
+- [Get started](/data/account-aggregator/v1/get-started): Account Aggregator getting started
+- [Overview](/data/account-aggregator/v1/overview): Account Aggregator overview
+- [Postman integration](/data/account-aggregator/v1/postman): Account Aggregator Postman integration
+- [Quickstart](/data/account-aggregator/v1/quickstart): Account Aggregator quickstart
+- [Request signing](/data/account-aggregator/v1/request-signing): Account Aggregator Request signing
+- [Async API](/data/bav/penny-drop/api-integration/async): BAV Async API integration
+- [BAV codes](/data/bav/penny-drop/api-integration/bav-codes): Error and status codes returned by the Bank Account Verification APIs
+- [API integration](/data/bav/penny-drop/api-integration): BAV API integration
+- [Sync API](/data/bav/penny-drop/api-integration/sync): BAV Sync API integration
+- [API integration](/data/insights/v1/quickstart/api-integration): Setu Insights Postman integration
+- [Quickstart](/data/insights/v1/quickstart): Setu Insights quickstart
+- [Postman integration](/data/insights/v1/quickstart/postman): Setu Insights Postman integration
+- [Org settings](/dev-tools/bridge/v1/org-settings): Bridge org settings
+- [People](/dev-tools/bridge/v1/org-settings/people): Invite members to your Bridge organisation and assign roles — Admin, Developer, Maintainer and Reporter — each with its own permissions and access.
+- [Reports](/dev-tools/bridge/v1/reports): Bridge reports
+- [Types](/dev-tools/bridge/v1/reports/types): Report types
+- [Fetch & Pay](/payments/bbps/quickstart/api-integration/fetch-pay): API integration - Fetch & Pay
+- [API integration](/payments/bbps/quickstart/api-integration): BBPS - API integration
+- [Validate & Pay](/payments/bbps/quickstart/api-integration/validate-pay): BBPS - API integration
+- [Paying for options](/payments/billpay/api-integration/paying-bills/bill-payment-options): Paying for alternative options
+- [Passing CCF](/payments/billpay/api-integration/paying-bills/customer-convenience-fee): Customer Convenience Fee (CCF) Integration Guide
+- [Paying multiple bills](/payments/billpay/api-integration/paying-bills/multi-bill-processing): Paying for multiple bills
+- [Paying for plans](/payments/billpay/api-integration/paying-bills/plan-mdm-integration): Handle plan selection flows for mobile prepaid, DTH and broadband recharges, where users pick a fixed-price plan before payment.
+- [Quickstart](/payments/billpay/api-integration/paying-bills/quickstart): BBPS Bill Payment Integration Guide
+- [Remitter Details](/payments/billpay/api-integration/paying-bills/remittance_flows_guide): Passing Remitter Details
+- [List of APIs](/payments/billpay/v1/api-integration/apis): BBPS COU — List of APIs
+- [Objects](/payments/billpay/v1/api-integration/objects): BBPS COU — Objects
+- [Quickstart](/payments/billpay/v1/api-integration/quickstart): BBPS COU — API integration
+- [Webhooks](/payments/billpay/v1/api-integration/webhooks): BBPS COU — Webhooks
+- [Webhooks](/payments/billpay/v1/pre-built-screens/webhooks): BBPS Billpay webhooks
+- [Mandate operations](/payments/umap/mandates/generic): UPI Setu - Mandates - Mandate operations
+- [Pause](/payments/umap/mandates/generic/pause): UPI Setu - Mandates - Pause
+- [Revoke](/payments/umap/mandates/generic/revoke): UPI Setu - Mandates - Revoke
+- [Unpause](/payments/umap/mandates/generic/unpause): UPI Setu - Mandates - Unpause
+- [Update](/payments/umap/mandates/generic/update): UPI Setu - Mandates - Update
+- [Check status](/payments/umap/mandates/one-shot/check-status): UPI Setu - Mandates - Check payment status
+- [Create](/payments/umap/mandates/one-shot/create): UPI Setu - Mandates - Create One Time Mandate
+- [Execute](/payments/umap/mandates/one-shot/execute): UPI Setu - Mandates - Execute One Time Mandate
+- [OneShot](/payments/umap/mandates/one-shot): UPI Setu - Mandates - OneShot
+- [Pre Debit Notify](/payments/umap/mandates/one-shot/pre-debit-notify): UPI Setu - Mandates - Send One Time Mandate Pre Debit Notification
+- [Check payment status](/payments/umap/mandates/recur/check-status): UPI Setu - Mandates - Check payment status
+- [Create](/payments/umap/mandates/recur/create): UPI Setu - Mandates - Create recurring mandate
+- [Execute](/payments/umap/mandates/recur/execute): UPI Setu - Mandates - Execute mandate
+- [Recur](/payments/umap/mandates/recur): UPI Setu - Mandates - Recur
+- [Pre Debit Notify](/payments/umap/mandates/recur/pre-debit-notify): UPI Setu - Mandates - Send Recurring Mandate Pre Debit Notification
+- [Check status](/payments/umap/mandates/reserve/check-status): UPI Setu - Mandates - Check payment status
+- [Create](/payments/umap/mandates/reserve/create): UPI Setu - Mandates - Create Reserve Mandate
+- [Execute](/payments/umap/mandates/reserve/execute): UPI Setu - Mandates - Execute Reserve Mandate
+- [Reserve](/payments/umap/mandates/reserve): UPI Setu - Mandates - Reserve
+- [Check status](/payments/umap/mandates/reserve-plus/check-status): UPI Setu - Mandates - Check payment status
+- [Create](/payments/umap/mandates/reserve-plus/create): UPI Setu - Mandates - Create single block multi-debit
+- [Execute](/payments/umap/mandates/reserve-plus/execute): UPI Setu - Mandates - Execute single block multi-debit
+- [ReservePlus](/payments/umap/mandates/reserve-plus): UPI Setu - Mandates - ReservePlus
+- [Create](/payments/umap/notifications/mandates/create): UPI Setu - Notifications and alerts - Creation of mandate
+- [Execute](/payments/umap/notifications/mandates/execute): UPI Setu - Notifications and alerts - Mandate execution
+- [Mandates](/payments/umap/notifications/mandates): UPI Setu - Notifications and alerts - Mandates
+- [Notify](/payments/umap/notifications/mandates/notify): UPI Setu - Notifications and alerts - Mandate pre-debit notifications
+- [Pause](/payments/umap/notifications/mandates/pause): UPI Setu - Notifications and alerts - Pausing mandate
+- [Revoke](/payments/umap/notifications/mandates/revoke): UPI Setu - Notifications and alerts - Revoking mandate
+- [Unpause](/payments/umap/notifications/mandates/unpause): UPI Setu - Notifications and alerts - Unpausing mandate
+- [Update](/payments/umap/notifications/mandates/update): UPI Setu - Notifications and alerts - Updating mandate
+- [Check status](/payments/umap/payments/collect/check-status): UPI Setu payments - Collect request - Check payment status
+- [Create](/payments/umap/payments/collect/create-collect-request): UPI Setu payments - Create collect request
+- [Collect](/payments/umap/payments/collect): UPI payments - Collect
+- [Verify customer VPA](/payments/umap/payments/collect/verify-customer-vpa-api): UPI Setu payments - Verify customer VPA
+- [Check status](/payments/umap/payments/flash/check-status): UPI Setu payments - Intent/QR - Check payment status
+- [Dynamic QR](/payments/umap/payments/flash/create-dqr): UPI Setu payments - Create Dynamic QR
+- [Static QR](/payments/umap/payments/flash/create-sqr): UPI Setu payments - Create Static QR
+- [Flash](/payments/umap/payments/flash): UPI payments - Flash
+- [Check status](/payments/umap/payments/tpv/check-status): UPI Setu - Payments - TPV - Check payment status
+- [Create](/payments/umap/payments/tpv/create-tpv): UPI Setu - Payments - Create TPV API
+- [TPV](/payments/umap/payments/tpv): UPI payments - TPV
+- [Payments](/payments/umap/payments/tpv/life-cycle): UMAP - Notifications and alerts - Payments
+- [Android](/payments/billpay/pre-built-screens/custom-payment/android): BBPS Billpay android integration for custom payment
+- [Required APIs](/payments/billpay/pre-built-screens/custom-payment/apis): BBPS Billpay APIs for custom payment
+- [Cross platform](/payments/billpay/pre-built-screens/custom-payment/cross-platform): BBPS Billpay cross-platform integration for custom payment
+- [iOS](/payments/billpay/pre-built-screens/custom-payment/iOS): BBPS Billpay iOS integration for custom payment
+- [Custom payment](/payments/billpay/pre-built-screens/custom-payment): BBPS Billpay custom payment
+- [Website](/payments/billpay/pre-built-screens/custom-payment/website): BBPS Billpay website integration for custom payment
+- [Android](/payments/billpay/pre-built-screens/quickstart/android): BBPS Billpay Android integration
+- [API](/payments/billpay/pre-built-screens/quickstart/api): BBPS Billpay API
+- [Cross platform](/payments/billpay/pre-built-screens/quickstart/cross-platform): BBPS Billpay cross platform integration
+- [iOS](/payments/billpay/pre-built-screens/quickstart/iOS): BBPS Billpay iOS integration
+- [Quickstart](/payments/billpay/pre-built-screens/quickstart): BBPS Billpay Quickstart
+- [Website](/payments/billpay/pre-built-screens/quickstart/website): BBPS Billpay website
+- [Consent flow](/data/account-aggregator/v1/api-integration/consent-flow): Account Aggregator Consent flow
+- [Data flow](/data/account-aggregator/v1/api-integration/data-apis): Account Aggregator Data flow
+- [Active FIPs](/data/account-aggregator/v1/api-integration/fip-apis): Account Aggregator Active FIPs
+- [API integration](/data/account-aggregator/v1/api-integration): Account Aggregator API integration
+- [Notifications](/data/account-aggregator/v1/api-integration/notifications): Account Aggregator Notifications
+- [Go live](/data/account-aggregator/v1/licenses-and-go-live/go-live): FIU go live process
+- [Licenses and go live](/data/account-aggregator/v1/licenses-and-go-live): Account Aggregator license and go live process
+- [Licenses](/data/account-aggregator/v1/licenses-and-go-live/licenses): Licenses required to participate in AA
+- [Participants in AA](/data/account-aggregator/v1/licenses-and-go-live/participants-in-aa): Account Aggregator v1 — live FIPs, FIUs and FIP-AA mappings from Sahamati, plus how to become an FIU with Setu as your technology partner.
+- [Consent flow](/data/account-aggregator/v1/migration-guide/consent-flow): Account Aggregator Consent flow
+- [Data flow](/data/account-aggregator/v1/migration-guide/data-flow): Account Aggregator Data flow
+- [Migration guide](/data/account-aggregator/v1/migration-guide): Account Aggregator Migration Guide
+- [Notifications](/data/account-aggregator/v1/migration-guide/notifications): Account Aggregator Notifications
+- [API keys](/dev-tools/bridge/v1/org-settings/api-keys): Create and manage API keys on The Bridge to authenticate requests to Setu. Compare OAuth keys and JWT keys, and pick the right one for your setup.
+- [JWT Auth](/dev-tools/bridge/v1/org-settings/api-keys/jwt-auth): How JSON Web Token authentication works at Setu — the supported JWT format, one-to-one config mapping, and when to use OAuth keys instead.
+- [JWT](/dev-tools/bridge/v1/org-settings/api-keys/jwt): View and use the auto-generated JWT key that maps one-to-one with each Setu product configuration on The Bridge. OAuth keys are recommended instead.
+- [OAuth](/dev-tools/bridge/v1/org-settings/api-keys/oauth): Generate and manage OAuth keys on The Bridge — use one master key across product configurations, then exchange it for tokens via the generate token API.
+- [Deprecated APIs](/payments/billpay/v1/api-integration/deprecated): BBPS COU — API integration (deprecated)
+- [Mock environment](/payments/billpay/v1/api-integration/deprecated/mock-environment): BBPS Billpay Mock environment
+- [Polling](/payments/billpay/v1/api-integration/deprecated/polling): BBPS Billpay polling
+- [Android](/payments/billpay/v1/pre-built-screens/custom-payment/android): BBPS Billpay android integration for custom payment
+- [Required APIs](/payments/billpay/v1/pre-built-screens/custom-payment/apis): BBPS Billpay APIs for custom payment
+- [Cross platform](/payments/billpay/v1/pre-built-screens/custom-payment/cross-platform): BBPS Billpay cross-platform integration for custom payment
+- [iOS](/payments/billpay/v1/pre-built-screens/custom-payment/iOS): BBPS Billpay iOS integration for custom payment
+- [Custom payment](/payments/billpay/v1/pre-built-screens/custom-payment): BBPS Billpay custom payment
+- [Website](/payments/billpay/v1/pre-built-screens/custom-payment/website): BBPS Billpay website integration for custom payment
+- [Android](/payments/billpay/v1/pre-built-screens/quickstart/android): BBPS Billpay Android integration
+- [API](/payments/billpay/v1/pre-built-screens/quickstart/api): BBPS Billpay API
+- [Cross platform](/payments/billpay/v1/pre-built-screens/quickstart/cross-platform): BBPS Billpay cross platform integration
+- [iOS](/payments/billpay/v1/pre-built-screens/quickstart/iOS): BBPS Billpay iOS integration
+- [Quickstart](/payments/billpay/v1/pre-built-screens/quickstart): BBPS Billpay Quickstart
+- [Website](/payments/billpay/v1/pre-built-screens/quickstart/website): BBPS Billpay website
