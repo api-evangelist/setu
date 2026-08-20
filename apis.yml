@@ -29,6 +29,15 @@ created: '2026-05-23'
 modified: '2026-05-23'
 tags:
   - Embedded Finance
+  - UPI
+  - BBPS
+  - Account Aggregator
+  - KYC
+  - eSign
+  - India
+  - Fintech
+tags_raw:
+  - Embedded Finance
   - APIs
   - UPI
   - BBPS
@@ -82,6 +91,10 @@ apis:
     baseURL: https://docs.setu.co/payments/bbps-billpay
     tags:
       - BBPS
+      - Bill Payments
+      - Payments
+    tags_raw:
+      - BBPS
       - Bill Payment
       - Payments
     properties:
@@ -96,6 +109,10 @@ apis:
     humanURL: https://docs.setu.co/payments/whatsapp-collect
     baseURL: https://docs.setu.co/payments/whatsapp-collect
     tags:
+      - WhatsApp
+      - Collection
+      - Payments
+    tags_raw:
       - WhatsApp
       - Collections
       - Payments
