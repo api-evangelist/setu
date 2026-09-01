@@ -102,7 +102,7 @@ apis:
     baseURL: https://docs.setu.co/payments/bbps-billpay
     tags:
       - BBPS
-      - Bill Payment
+      - Bill Payments
       - Payments
     tags_raw:
       - BBPS
