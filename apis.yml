@@ -191,6 +191,12 @@ apis:
       - type: Website
         url: https://bridge.setu.co/
 common:
+  - type: Plans
+    url: plans/setu-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/setu-rate-limits.yml
+  - type: FinOps
+    url: finops/setu-finops.yml
   - type: DomainSecurity
     url: security/setu-domain-security.yml
   - type: Website
