@@ -44,7 +44,7 @@ tags:
   - BBPS
   - Account Aggregator
   - KYC
-  - eSign
+  - E-Signature
   - India
   - Fintech
 tags_raw:
@@ -169,6 +169,10 @@ apis:
     humanURL: https://docs.setu.co/data/aadhaar-esign
     baseURL: https://docs.setu.co/data/aadhaar-esign
     tags:
+      - E-Signature
+      - Aadhaar
+      - Documents
+    tags_raw:
       - eSign
       - Aadhaar
       - Documents
