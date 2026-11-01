@@ -1,4 +1,4 @@
-# setu
+# Setu
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,118 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Setu (Pine Labs) — embedded finance API infrastructure for India
+Setu (a Pine Labs company) is an API-first embedded finance infrastructure provider for India. Its product catalogue covers UPI acceptance and payouts, BBPS bill collection and bill payment, WhatsApp-based payment journeys, Account Aggregator (RBI's consent-based financial data sharing framework), KYC for individuals and businesses, and Aadhaar eSign. The Bridge is Setu's developer console for configuring products, issuing credentials, and reviewing transactions and settlement. All products are exposed as REST APIs documented at docs.setu.co.
+
+**Areas:** Embedded Finance · UPI · BBPS · Account Aggregator · KYC · E-Signature · India · Fintech
+
+## Setu on APIs.io
+
+Everything profiled for Setu is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/setu/](https://apis.io/providers/setu/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [Setu UPI (UPI Setu)](https://apis.io/apis/setu/upi/) — End-to-end UPI product suite for merchants and aggregators - collect requests, deep-link / intent flows, UPI AutoPay mandates, payment verification, and…
+- [Setu BBPS BillCollect](https://apis.io/apis/setu/bbps-billcollect/) — Enables businesses to become BBPS billers so that customers can pay their bills from any BBPS-enabled app. APIs cover biller onboarding, bill fetch, bill…
+- [Setu BBPS BillPay](https://apis.io/apis/setu/bbps-billpay/) — Lets apps and platforms offer bill payment to any BBPS biller in India. Provides biller catalogue, fetch-bill, payment, and status APIs along with pre-built…
+- [Setu WhatsApp Collect](https://apis.io/apis/setu/whatsapp-collect/) — Automates payment reminders and bill-pay journeys over WhatsApp, combining BBPS bill fetch and UPI collection inside a conversational flow.
+- [Setu Account Aggregator](https://apis.io/apis/setu/account-aggregator/) — Setu's Account Aggregator stack lets regulated entities consume consent-based financial data from a customer's other institutions under RBI's AA framework,…
+- [Setu KYC](https://apis.io/apis/setu/kyc/) — KYC API suite for verifying individuals and businesses in India (Aadhaar, PAN, GSTIN, bank account, business identity), used during onboarding by fintechs,…
+- [Setu Aadhaar eSign](https://apis.io/apis/setu/esign/) — Aadhaar-based electronic signature API for collecting legally valid signatures on documents, with audit trail and signed PDF retrieval.
+- [Setu The Bridge (Developer Console)](https://apis.io/apis/setu/bridge/) — The Bridge is Setu's developer console for configuring products, issuing API credentials, viewing transaction and settlement reports, and managing webhook…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [setu](https://apis.io/servers/setu/setu/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Setu Domain Security](https://apis.io/security/setu/setu-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Setu Plans Pricing](https://apis.io/plans/setu/setu-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Setu Rate Limits](https://apis.io/rate-limits/setu/setu-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Setu Finops](https://apis.io/finops/setu/setu-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://setu.co/)
+- [Documentation](https://docs.setu.co/)
+- [Blog](https://setu.co/blog)
+
+## API Evangelist rating
+
+**Kin Score 12.3** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 5.3 |
+
+**Agent readiness 12.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/setu/](https://apis.io/providers/setu/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Setu: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/setu/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
